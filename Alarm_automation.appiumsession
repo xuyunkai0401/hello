@@ -1,0 +1,76 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "LAVA android14"
+    },
+    {
+      "type": "text",
+      "name": "appium:appPackage",
+      "value": "com.android.deskclock"
+    },
+    {
+      "type": "text",
+      "name": "appium:appActivity",
+      "value": ".DeskClock"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "uiautomator2"
+    },
+    {
+      "type": "boolean",
+      "name": "appium:unicodeKeyboard",
+      "value": true
+    },
+    {
+      "type": "boolean",
+      "name": "appium:resetKeyboard",
+      "value": true
+    },
+    {
+      "type": "boolean",
+      "name": "appium:noReset",
+      "value": true
+    },
+    {
+      "type": "boolean",
+      "name": "appium:skipUnlock",
+      "value": true
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "hostname": "127.0.0.1",
+      "port": "4723",
+      "path": "/wd/hub"
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {},
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {},
+    "mobitru": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}

@@ -1,0 +1,11 @@
+jenkins启动命令
+1.在安装包根路径下，运行命令 java -jar jenkins.war --httpPort=8090，（linux环境、Windows环境都一样）；
+
+2.打开浏览器进入链接 http://localhost:8090
+
+
+Allure生成测试报告网页显示
+pytest --alluredir=./allure-results
+
+# 执行此命令，将在默认浏览器中显示生成的报告
+allure serve ./allure-results
